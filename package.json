@@ -1,0 +1,93 @@
+{
+  "name": "@longnc/themartec-textract",
+  "version": "1.0.0",
+  "homepage": "https://github.com/themartec/textract",
+  "author": "Long Nguyen <long.nguyen@themartec.com>",
+  "description": "Extracting text from files of various type including html, pdf, doc, docx, xls, xlsx, csv, pptx, png, jpg, gif, rtf, text/*, and various open office.",
+  "contributors": [
+    {
+      "name": "David Bashford",
+      "email": "dbashford@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbashford/textract.git"
+  },
+  "keywords": [
+    "textract",
+    "extract",
+    "html",
+    "csv",
+    "text",
+    "pdf",
+    "docx",
+    "doc",
+    "xls",
+    "xlsx",
+    "png",
+    "jpg",
+    "gif",
+    "rtf",
+    "dxf",
+    "pptx",
+    "html",
+    "markdown",
+    "xml",
+    "odt",
+    "ott",
+    "xlsb",
+    "xlsm",
+    "xltx",
+    "ods",
+    "ots",
+    "potx",
+    "odg",
+    "otg",
+    "epub"
+  ],
+  "dependencies": {
+    "@longnc/themartec-j": "^1.0.0",
+    "@xmldom/xmldom": "^0.9.6",
+    "cheerio": "^1.0.0",
+    "epub2": "^3.0.2",
+    "got": "^14.4.5",
+    "html-entities": "^2.5.2",
+    "iconv-lite": "^0.6.3",
+    "jschardet": "^3.1.4",
+    "marked": "^15.0.4",
+    "meow": "^13.2.0",
+    "mime": "^4.0.6",
+    "pdf-text-extract": "^1.5.0",
+    "xpath": "^0.0.34",
+    "yauzl": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "eslint": "^9.17.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.2",
+    "mocha": "^11.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint -c .eslintrc.json lib"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "bin": {
+    "textract": "bin/textract"
+  },
+  "main": "./lib/index",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/dbashford/textract/issues"
+  }
+}
